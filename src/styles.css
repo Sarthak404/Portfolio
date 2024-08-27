@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f0f4f8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .phoy{
+    display: flex;
+  }
+  .phoy h1{
+    padding-top: 38px;
+    
+  }
+  .profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #0056b3;
+  }
+  
+  main section {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  main section h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .portfolio-items, .research-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .name{
+    margin-left: -00px;
+  }
+  .portfolio-item, .research-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .portfolio-item h3, .research-item h3 {
+    margin-top: 0;
+  }
+  
+  .portfolio-item a, .research-item a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .portfolio-item p,
+.research-item p {
+    text-align: justify; /* Justify the text for even spacing */
+    line-height: 1.6;    /* Increase line height for better readability */
+    margin-bottom: 1rem; /* Add some margin at the bottom of each paragraph */
+}
+  .portfolio-item a:hover, .research-item a:hover {
+    text-decoration: underline;
+  }
+  .contitile {
+    display: flex;
+    align-items: center;    /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    text-align: center;
+    padding-bottom: 15px;   /* Center text within the container */           /* Make the container take full viewport height */
+    margin: 0 auto;          /* Center the container itself */
+}
+
+  .contact-info {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+}
+
+.contact-buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.btn-email {
+  background-color: #007bff;
+}
+
+.btn-email:hover {
+  background-color: #0056b3;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1da855;
+}
+
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn, .btn1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn1 {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn1:hover {
+    background-color: #5a6268;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  .footicon{
+    padding: 10px 10px;
+  }
+  .footicon a{
+    margin: 20px 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+
+  .picon{
+    font-size: 30px;
+    margin: 10px 10px;
+  }
+  .picon a{
+    margin-right: 20px;
+  }
