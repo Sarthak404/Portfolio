@@ -35,7 +35,7 @@ class App extends React.Component {
             <h2>About Me</h2>
             <div className="about-content">
               <p>
-              I am an Electronics and Computer Engineer with a strong interest in learning and adapting to new challenges. I am looking for a career opportunity where I can use my skills and training to contribute to the success of a company. I enjoy working on projects related to software development, web development, and embedded systems. My knowledge of Japanese adds an international perspective to my work, helping me communicate and collaborate effectively in diverse settings.
+                I am an Electronics and Computer Engineer with a strong interest in learning and adapting to new challenges. I am looking for a career opportunity where I can use my skills and training to contribute to the success of a company. I enjoy working on projects related to software development, web development, and embedded systems. My knowledge of Japanese adds an international perspective to my work, helping me communicate and collaborate effectively in diverse settings.
               </p>
             </div>
           </section>
@@ -141,16 +141,22 @@ class App extends React.Component {
 
         </main>
         <footer>
-        <div className='picon'>
-            <a href="https://github.com/Sarthak404">
-              <FontAwesomeIcon icon={faExternalLinkAlt} />
-            </a>
-            <a href="http://linkedin.com/in/sarthak--chaudhari">
-              <FontAwesomeIcon icon={faExternalLinkAlt} />
-            </a>
+
+          <div className='con'>
+            <div className="contact-buttons">
+              <a href="http://github.com/Sarthak404" className="btn btn-email">
+                Github
+              </a>
+            </div>
+            <div className="contact-buttons">
+              <a href="http://linkedin.com/in/sarthak--chaudhari" className="btn btn-email">
+                linkedin
+              </a>
+            </div>
           </div>
+
           <p>&copy; {new Date().getFullYear()} Sarthak Ashok Chaudhari. All rights reserved.</p>
-          
+
 
         </footer>
       </div>

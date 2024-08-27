@@ -140,6 +140,14 @@ body {
   font-weight: bold;
   margin: 5px;
 }
+.con {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Vertically centers the content if needed */
+  margin: 0 auto; /* Centers the entire flex container */
+  width: 100%;
+}
+
 
 .btn-email {
   background-color: #007bff;
