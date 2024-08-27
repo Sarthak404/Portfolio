@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sarthak404/Portfolio/static/css/main.6c62ceef.css",
+    "main.js": "/Sarthak404/Portfolio/static/js/main.c0f44482.js",
+    "static/media/profile-photo.jpg": "/Sarthak404/Portfolio/static/media/profile-photo.74fcef25d9b9577e2b3e.jpg",
+    "index.html": "/Sarthak404/Portfolio/index.html",
+    "main.6c62ceef.css.map": "/Sarthak404/Portfolio/static/css/main.6c62ceef.css.map",
+    "main.c0f44482.js.map": "/Sarthak404/Portfolio/static/js/main.c0f44482.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c62ceef.css",
+    "static/js/main.c0f44482.js"
+  ]
+}
